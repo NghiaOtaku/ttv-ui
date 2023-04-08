@@ -1,0 +1,11 @@
+.wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    margin-top: var(--default-layout-header-height);
+    width: var(--default-layout-width);
+    padding: 0px var(--default-layout-horizontal-spacer);
+    min-height: max-content;
+}

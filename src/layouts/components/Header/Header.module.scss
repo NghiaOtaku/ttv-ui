@@ -1,0 +1,54 @@
+.wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    width: 100%;
+    height: var(--default-layout-header-height);
+    background-color: white;
+    box-shadow: 0 1px 1px rgb(0 0 0 / 12%);
+}
+
+.inner {
+    margin: 0 auto;
+    padding: 0px var(--default-layout-horizontal-spacer);
+    width: var(--default-layout-width);
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+}
+
+.action {
+    display: flex;
+    align-items: center;
+}
+
+.action-btn {
+    font-size: 2.2rem;
+    color: #161823;
+    background-color: transparent;
+    padding: 4px 12px;
+    cursor: pointer;
+}
+
+.user-avatar {
+    width: 32px;
+    height: 32px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-left: 12px;
+    cursor: pointer;
+}
+
+.more-btn {
+    font-size: 20px;
+    margin-left: 24px;
+    background-color: transparent;
+    padding: 4px 8px;
+    cursor: pointer;
+}
